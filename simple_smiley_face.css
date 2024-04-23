@@ -1,0 +1,50 @@
+.face
+{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius:50%;
+    
+    
+}
+.mouth
+{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(93, 4, 4);
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 0 0 50px 50px;
+    position:absolute;
+    top: 250px;
+    left: 110px;
+
+}
+.left_eye, .right_eye{
+    width: 40px;
+    height: 70px;
+    background-color: rgb(93, 4, 4);
+    border-radius:50%;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 100px
+}
+
+
+.right_eye
+{
+
+    left: 270px
+}
+.balla, .ballb
+{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(253, 250, 250);
+    border-radius:82%;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+}
